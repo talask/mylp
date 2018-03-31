@@ -3,6 +3,9 @@
 *{
 	box-sizing: border-box;
 }
+*:focus{
+	outline: none;
+}
 body{
 	margin: 0;
 	background-color: #fff;
@@ -140,6 +143,7 @@ blockquote span,
 	text-transform: uppercase;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.2em;
 }
 
 .btn.btn-default {
@@ -263,35 +267,40 @@ blockquote span,
 	filter:grayscale(100%)
  }
  .team-item .team-item-skills {
-	 opacity: 0;
-	 position: absolute;
-	 top: 0;
-	 width: 100%;
-	 height: 100%;
-	 background-color: #000;
-	 transition: all .2s linear; 
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	transition: all .2s linear; 
  }
  .team-item .team-item-img:hover .team-item-skills {
 	opacity: 1;
  }
  /* About-studio end */
  /* Services */
- .services-item {
-	overflow: hidden;
-	width: 100%;
-}
- .services-item .services-item-name  {
-	padding: 40px;
+ #tabs .tabs-nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	outline: none;
  }
- .services-item .services-item-name span {
+ #tabs .tabs-nav span {
 	display: block;
  }
- .services-item-name span + span {
+ #tabs .tabs-nav span + span {
 	margin-top: 38px;
- }
+}
+#tabs .tabs-nav .services-name {
+	font-size: 14px;
+}
+#tabs div {
+	padding: 40px;
+}
  /* Services end */
  /* Choose */
- .choose-wraper {
+ .choose-wrapper .row + .row {
 	 margin-bottom: 85px;
  }
  .choose-item .choose span {
