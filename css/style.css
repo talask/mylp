@@ -133,6 +133,8 @@ blockquote span,
 	font-size: 11px;
 	line-height: 0.2em;
 	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .2em;
 }
 
 .btn {
