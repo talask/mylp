@@ -64,8 +64,11 @@ blockquote {
 	background-color: #111;
 }
 
-.bg-grey {
+.bg-gray {
 	background-color: #f8f8f8;
+}
+.span-block span {
+	display: block;
 }
 /* ===== Default classes end ===== */
 /* ===== Default component start ===== */
@@ -172,6 +175,13 @@ blockquote span,
 	background-color: #323232;
 	color: #fff;
 }
+
+.btn.btn-xs-gray {
+	padding: 7px 15px;
+	font-size: 11px;
+	background-color: #e5e5e5;
+	color: #777;
+}
  .header {
 	width: 100%;
 	z-index: 99;
@@ -234,7 +244,6 @@ blockquote span,
 }
 
 .inner span {
-	display: block;
 	font-size: 19px;
 	font-weight: 300;
 	color: rgba(255, 255, 255, .75);
@@ -251,9 +260,9 @@ blockquote span,
 	 font-family: 'Open Sans', sans-serif;
 	 padding: 40px;
  }
- .team-item .team-item-info span {
+ /* .team-item .team-item-info span {
 	display: block;
- }
+ } */
  .team-item .team-item-info span + span {
 	margin-top: 15px;
  }
@@ -266,7 +275,7 @@ blockquote span,
  .team-item .team-item-img {
 	 position: relative;
 	-webkit-filter: grayscale(100%);
-	filter:grayscale(100%)
+	filter:grayscale(100%);
  }
  .team-item .team-item-skills {
 	opacity: 0;
@@ -288,9 +297,9 @@ blockquote span,
 	text-align: center;
 	outline: none;
  }
- #tabs .tabs-nav span {
+ /* #tabs .tabs-nav span {
 	display: block;
- }
+ } */
  #tabs .tabs-nav span + span {
 	margin-top: 38px;
 }
@@ -305,9 +314,9 @@ blockquote span,
  .choose-wrapper .row + .row {
 	 margin-top: 85px;
  }
- .choose-item .choose span {
+ /* .choose-item .choose span {
 	display: block;
- }
+ } */
  .choose-item .choose span + span {
 	margin-top: 38px;
  }
@@ -318,4 +327,36 @@ blockquote span,
 	 font-size: 14px;
  }
  /* Choose end */
+ /* News */
+ .news .title a {
+	 float: right;
+	 font-size: 11px;
+	 letter-spacing: .3em;
+ }
+.news-img img {
+ 	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+}
+.news-img img:hover {
+	-webkit-filter: grayscale(0);
+   filter:grayscale(0);
+}
+ .news-title {
+	 padding-top: 30px;
+ }
+ .news-title .news-name {
+	font-size: 15px;
+	letter-spacing: .2em;
+}
+ .news-title .news-men {
+	 font-size: 12px;
+	 letter-spacing: 0.3em;
+ }
+ .news-title span + span {
+	 margin-top: 17px;
+ }
+ .news-info .btn {
+	margin-top: 27px;
+ }
+ /* News end */
 /* ===== Custom styles end ===== */
