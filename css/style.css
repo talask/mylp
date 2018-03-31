@@ -301,7 +301,7 @@ blockquote span,
  /* Services end */
  /* Choose */
  .choose-wrapper .row + .row {
-	 margin-bottom: 85px;
+	 margin-top: 85px;
  }
  .choose-item .choose span {
 	display: block;
