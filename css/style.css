@@ -321,9 +321,6 @@ textarea.form-control {
 	 font-family: 'Open Sans', sans-serif;
 	 padding: 40px;
  }
- /* .team-item .team-item-info span {
-	display: block;
- } */
  .team-item .team-item-info span + span {
 	margin-top: 15px;
  }
@@ -405,6 +402,9 @@ textarea.form-control {
 	filter:grayscale(0);
 } 
  /* Portfolio end */
+/* Works start */
+
+/*  Works end */
 /* Subscribe start */
 .subscribe form .form-control {
 	max-width: 290px;
