@@ -393,6 +393,9 @@ textarea.form-control {
  #tabs-portfolio .tabs-nav li:hover {
 	 opacity: 1;
  }
+ #tabs-portfolio .tabs-nav .portfolio-name {
+	font-size: 13px;
+}
  #tabs-portfolio img {
 	-webkit-filter: grayscale(100%);
 	filter:grayscale(100%);
