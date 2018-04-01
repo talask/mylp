@@ -384,6 +384,27 @@ textarea.form-control {
 	margin-top: -32px;
 }
  /* Lets talk end */
+ /* Portfolio */
+ #tabs-portfolio .tabs-nav li {
+	float: left;
+	width: 20%;
+	font-size: 13px;
+	text-align: center;
+	outline: none;
+	opacity: .6;
+ }
+ #tabs-portfolio .tabs-nav li:hover {
+	 opacity: 1;
+ }
+ #tabs-portfolio img {
+	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+ }
+ #tabs-portfolio  img:hover {
+	-webkit-filter: grayscale(0);
+	filter:grayscale(0);
+} 
+ /* Portfolio end */
 /* Subscribe start */
 .subscribe form .form-control {
 	max-width: 290px;
