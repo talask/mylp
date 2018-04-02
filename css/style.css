@@ -349,6 +349,9 @@ textarea.form-control {
  }
  /* About-studio end */
  /* Services */
+ .services {
+	 border-top: 1px solid rgba(0, 0, 0, .1);
+ }
  #tabs .tabs-nav li {
 	float: left;
 	width: 20%;
@@ -382,6 +385,18 @@ textarea.form-control {
 }
  /* Lets talk end */
  /* Portfolio */
+ .portfolio-photo {
+	 overflow: hidden;
+	 padding: 50px;
+	 margin-left: -4px;
+	 margin-right: -4px;
+ }
+ .portfolio-item {
+	float: left;
+	width: 33.3333333%;
+	padding: 0 4px;
+	border: 1px solid red;
+ }
  #tabs-portfolio .tabs-nav li {
 	float: left;
 	width: 20%;
@@ -435,8 +450,11 @@ textarea.form-control {
  /* Choose end */
  /* News */
  .news .title a {
-	 float: right;
-	 font-size: 11px;
+	float: right;
+	font-size: 11px;
+	letter-spacing: 4px;
+	color: #999;
+
 	 letter-spacing: .3em;
  }
 .news-img img {
