@@ -46,6 +46,7 @@ button {
 button {
 	cursor: pointer;
 	background-color: transparent;
+	padding: 0;
 }
 
 textarea {
@@ -237,6 +238,32 @@ textarea.form-control {
 	font-weight: 400;
 	color: #aaa;
 }
+.m-auto {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.romb-icon {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 2px;
+    font-size: 14px;
+    transform: rotate(45deg);
+}
+.romb-icon i{
+    transform: rotate(45deg);
+}
+.romb-icon.black-icon {
+    color: #fff;
+    background-color: #111;
+}
+.romb-icon.transparent-icon {
+    color: #111;
+    background-color: #fff;
+}
  .header {
 	width: 100%;
 	z-index: 99;
@@ -313,13 +340,13 @@ textarea.form-control {
  /* Inner end */
  /* About-studio */
  .team-wrapper {
-	 overflow: hidden;
-	 width: 100%;
-	 padding-top: 100px;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 100px;
  }
  .team-item .team-item-info {
-	 font-family: 'Open Sans', sans-serif;
-	 padding: 40px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 40px;
  }
  .team-item .team-item-info span + span {
 	margin-top: 15px;
@@ -328,10 +355,10 @@ textarea.form-control {
 	font-size: 15px;
 }
  .team-item-info .team-item-role {
-	 font-size: 12px;
+	font-size: 12px;
  }
  .team-item .team-item-img {
-	 position: relative;
+	position: relative;
 	-webkit-filter: grayscale(100%);
 	filter:grayscale(100%);
  }
@@ -395,7 +422,6 @@ textarea.form-control {
 	float: left;
 	width: 33.3333333%;
 	padding: 0 4px;
-	border: 1px solid red;
  }
  #tabs-portfolio .tabs-nav li {
 	float: left;
@@ -435,9 +461,6 @@ textarea.form-control {
  .choose-wrapper .row + .row {
 	 margin-top: 85px;
  }
- /* .choose-item .choose span {
-	display: block;
- } */
  .choose-item .choose span + span {
 	margin-top: 38px;
  }
@@ -448,6 +471,93 @@ textarea.form-control {
 	 font-size: 14px;
  }
  /* Choose end */
+ /* Review carousel start */
+.carousel-review {
+    padding: 135px 0;
+    overflow: hidden;
+}
+.slick-dots {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30px;
+}
+.slick-dots li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: rgba(255, 255, 255, .8);
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots li button {
+    display: none;
+}
+.slick-dots li + li {
+    margin-left: 5px;
+}
+.slick-dots li.slick-active {
+    background-color: #000;
+    border-color:  rgba(255, 255, 255, .8);
+}
+.slick-arrow {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    width: 90px;
+    cursor: pointer;
+}
+.slick-arrow.slick-prev {
+    left: 0;
+}
+.slick-arrow.slick-next {
+    right: 0;
+}
+.slick-arrow .carousel-button {
+    width: 63px;
+    height: 63px;
+    background: #fff;
+    text-align: center;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -31px;
+}
+.slick-arrow.slick-next .carousel-button{
+    right: 0;
+    margin-right: -31px;
+}
+.slick-arrow .carousel-button .fa {
+    position: absolute;
+    transform: rotate(-45deg);
+    font-size: 10px;
+}
+.slick-arrow.slick-prev .carousel-button .fa {
+    bottom: 14px;
+    right: 17px;
+    
+ }
+ .slick-arrow.slick-next .carousel-button .fa {
+    top: 17px;
+    left: 14px;
+}
+/* Review carousel end */
+/* Сontacts */
+.contact-item {
+	display: inline-block;	
+}
+.contact-item .contact-item-content{
+    display: inline-block;
+	vertical-align: center;
+}
+.contact-item .contact-item-content {	
+	margin-left: 15px;
+}
+
+/* Сontacts end*/
  /* News */
  .news .title a {
 	float: right;
