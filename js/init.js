@@ -10,3 +10,10 @@ $('.reviews-carousel').slick({
     nextArrow: '<div class="slick-next slick-arrow"><dif class="carousel-button"><i class="fa-fa-chewron-right"></i></div></div>',
 });
   });
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 43.397, lng: 15.644},
+      zoom: 8
+    });
+  }

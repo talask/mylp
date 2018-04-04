@@ -27,11 +27,11 @@
                 <!-- / logo -->
                 <!-- header-nav -->
 			    <ul class="header-nav">
-			        <li><a href="">Home</a></li>
-				    <li><a href="">About</a></li>
-				    <li><a href="">Services</a></li>
-                    <li><a href="">Works</a></li>
-                    <li><a href="">Contact</a></li>
+			        <li><a href="" data-scroll=".inner">Home</a></li>
+				    <li><a href="" data-scroll=".about-studio">About</a></li>
+				    <li><a href="" data-scroll=".services">Services</a></li>
+                    <li><a href="" data-scroll=".portfolio">Works</a></li>
+                    <li><a href="" data-scroll=".contacts">Contact</a></li>
 			    </ul>
             </div>
             <!--/ container-fluid -->
@@ -676,21 +676,48 @@
                             <!-- / row -->
                         </div>
                         <!-- contact-items-wrapper -->
+                        <form class="contact-form">
+                            <div class="form-col">
+                                <input type="text" name="user-name" id="user-name" placeholder="Name" class="form-control">
+                                <input type="text" name="user-email" id="user-email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-col">
+                                <textarea name="user-message" id="user-message" placeholder="Message"  class="form-control"></textarea>
+                            </div>
+                            <div class="form-info pull-left">
+                                <span><i class="fa fa-info-circle"></i> All the fields are required</span>
+                            </div>
+                            <!-- / form-info -->
+                            <button type="submit" class="btn btn-black pull-right">Submit message</button>
+                        </form>
+                        <!-- / form -->
                     </div>
+                    <!-- / col -->
                 </div>
                 <!-- / row -->
+
             </div>
             <!-- / container -->
         </div>
         <!-- / default-section contacts -->
+        <div class="map-container">
+            <div id="map"></div>
+            <div class="on-map-block"></div>
+        </div>
         </div>
         <!-- main end -->
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <!-- JQuery UI -->
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <!-- / REVIEWS --><!-- Plugins -->
+        <!-- Google map api -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL6LmExFFmXF8575X1X5fZuTz432hP0II&callback=initMap"
+    async defer></script>
+        <!-- Plugins -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <!-- Show header on-scroll -->
+        <script src="js/header-scroll.js"></script>
+        <script src="js/scroll-to.js"></script>
         <!-- Init pluggins -->
         <script src="js/init.js"></script>
     
