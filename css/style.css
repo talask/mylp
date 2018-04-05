@@ -380,6 +380,18 @@ textarea.form-control {
  .team-item .team-item-img:hover .team-item-skills {
 	opacity: 1;
  }
+ .progress-wrap progress .branding {
+	transition: width .5s ease-out;
+ }
+ .progress-wrap progress .developmen {
+	transition: width .5s ease-out .2s;
+ }
+ .team-item .team-item-img:hover .branding {
+	 width: 80%;
+ }
+ .team-item .team-item-img:hover .development {
+	width: 70%;
+}
  /* About-studio end */
  /* Services */
  .services {
