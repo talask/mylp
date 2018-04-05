@@ -13,7 +13,8 @@ $('.reviews-carousel').slick({
   var map;
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 43.397, lng: 15.644},
+      center: {lat: 49.91, lng: 36.248},
       zoom: 8
     });
   }
+//18,49.9161583,36.248290699999984,2,1' 
