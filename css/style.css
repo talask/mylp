@@ -631,5 +631,10 @@ textarea.form-control {
  .news-info .btn {
 	margin-top: 27px;
  }
- /* News end */
+/* News end */
+/* Footer */
+.footer-social-nav li {
+	float: left;
+}
+/* Footer end */
 /* ===== Custom styles end ===== */
