@@ -592,10 +592,19 @@ textarea.form-control {
 	top: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, .8);
-	vertical-align: middle;
+	/* vertical-align: middle; */
 }
 .map-container:hover .on-map-block {
 	display: none;
+}
+.map-content {
+	padding-top: 160px;
+}
+.map-content .map-item {
+	margin-bottom: 27px;
+}
+.map-content .title {
+	font-size: 16px;
 }
 /* Map  end */
  /* News */
@@ -635,7 +644,7 @@ textarea.form-control {
 /* News end */
 /* Footer */
 .footer-content {
-	margin-top: 110px;
+	padding: 140px 0;
 	vertical-align: middle;
 }
 .footer-content .footer-logo {
@@ -643,7 +652,7 @@ textarea.form-control {
  }
 .footer-item {
 	display: inline-block;	
-	border: 1px solid #111;
+	border: 1px dashed #111;
 }
 .footer-content .footer-item + .footer-item {
 	margin-left: 14px;
@@ -651,11 +660,15 @@ textarea.form-control {
 .footer-content .form-info {
 	margin-top: 110px;
 	font-family: 'Dosis';
+	line-height: 24px;
 }
-.form-info span{
+.form-info span {
+	color: #111;
 	font-size: 12px;
+	letter-spacing: .5em;
+	font-weight: 500;
 }
-.form-info p{
+.form-info p {
 	font-size: 11px;
 }
 
