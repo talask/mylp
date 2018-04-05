@@ -260,7 +260,7 @@ textarea.form-control {
     transform: rotate(45deg);
 }
 .romb-icon i{
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
 }
 .romb-icon.black-icon {
     color: #fff;
@@ -597,9 +597,6 @@ textarea.form-control {
 .map-container:hover .on-map-block {
 	display: none;
 }
-.map-item {
-	transform: rotate(-45deg);
-}
 /* Map  end */
  /* News */
  .news .title a {
@@ -647,7 +644,6 @@ textarea.form-control {
 .footer-item {
 	display: inline-block;	
 	border: 1px solid #111;
-	transform: rotate(-45deg);
 }
 .footer-content .footer-item + .footer-item {
 	margin-left: 14px;
