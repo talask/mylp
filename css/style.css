@@ -430,6 +430,9 @@ textarea.form-control {
 }
  /* Lets talk end */
  /* Portfolio */
+ .portfolio {
+	 margin-bottom: -135px;
+ }
  .portfolio-img {
 	 overflow: hidden;
 	 padding: 50px;
@@ -441,20 +444,37 @@ textarea.form-control {
 	width: 33.3333333%;
 	padding: 0 4px;
  }
- #tabs-portfolio.tabs-nav li {
+ #tabs-portfolio .tabs-nav {
+	 padding: 82px 0 50px;
+ }
+ #tabs-portfolio .tabs-nav li {
 	float: left;
 	width: 20%;
-	font-size: 13px;
 	text-align: center;
 	outline: none;
 	opacity: .6;
  }
- #tabs-portfolio.tabs-nav li:hover {
+ #tabs-portfolio .tabs-nav li:hover {
 	 opacity: 1;
  }
- #tabs-portfolio.tabs-nav .portfolio-name {
+ #tabs-portfolio .tabs-nav li + li {
+	 margin-left: 35px;
+ }
+ #tabs-portfolio .tabs-nav .portfolio-name {
 	font-size: 13px;
+	letter-spacing: 0.4em;
 }
+#portfolio-photo img{
+	height: 275px;
+}
+#portfolio-photo::before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-left: -4px;
+}
+
  #tabs-portfolio img {
 	-webkit-filter: grayscale(100%);
 	filter:grayscale(100%);
