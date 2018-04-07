@@ -514,6 +514,11 @@ textarea.form-control {
     padding: 135px 0;
     overflow: hidden;
 }
+.reviews-carousel .icon {
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 32px;
+}
 .reviews-carousel .title{
 	line-height: 26px;
 	padding-top: 25px;
@@ -521,7 +526,17 @@ textarea.form-control {
 .reviews-carousel .slide-content {
 	margin-bottom: 44px;
 }
-
+.slide-content p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+}
+.review-author {
+	font-size: 11px;
+	line-height: 38px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
 .slick-dots {
     position: absolute;
     width: 100%;
@@ -565,8 +580,7 @@ textarea.form-control {
     width: 63px;
     height: 63px;
     background: #fff;
-    text-align: center;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
     position: absolute;
     top: 50%;
     margin-left: -32px;
@@ -579,7 +593,7 @@ textarea.form-control {
 .slick-arrow .carousel-button .fa {
     position: absolute;
     transform: rotate(-45deg);
-    font-size: 10px;
+	font-size: 10px;
 }
 .slick-arrow.slick-prev .carousel-button .fa {
     bottom: 14px;
