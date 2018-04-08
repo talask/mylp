@@ -82,9 +82,6 @@ blockquote {
 .bg-gray {
 	background-color: #f8f8f8;
 }
-.span-block span {
-	display: block;
-}
 .pull-left {
 	float: left;
 }
@@ -269,6 +266,9 @@ textarea.form-control {
 .romb-icon.transparent-icon {
     color: #111;
     background-color: #fff;
+}
+.span-block span {
+	display: block;
 }
  .header {
 	width: 100%;
