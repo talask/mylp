@@ -18,8 +18,8 @@ function initMap() {
 
 
         // Add your coordinates. How to know coordinates: https://support.google.com/maps/answer/18539?hl=en
-        let myLatlng = new google.maps.LatLng(49.982521, 36.246361);
-
+        let myLatlng = new google.maps.LatLng(49.916158, 36.248290699999984);
+        //18,49.9161583,36.248290699999984
         // Add your company name and some text about company
         let maptooltipbold = 'Home';
         let maptooltip = 'Family';
