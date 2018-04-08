@@ -301,6 +301,14 @@ textarea.form-control {
 .icon {
 	font-size: 48px;
 }
+.arrow-up {
+	font-size: 50px;
+	color: #c6c6c6;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	cursor: pointer;
+}
 /* ===== Default component end ===== */
 /* ===== Guide styles start ===== */
 .guid-section form .form-control {
