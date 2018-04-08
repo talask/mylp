@@ -672,13 +672,18 @@ textarea.form-control {
 }
 .contact-form {
 	margin: 0 -5px;
+}
+.form-row {
+	margin: 0 -5px;
 	overflow: hidden;
+}
+.form-submit {
+	margin-top: 20px;
 }
 .contact-form .form-col {
 	float: left;
 	width: 50%;
 	padding: 0 5px;
-	margin-bottom: 20px;
 }
 .contact-form .form-control + .form-control {
 	margin-top: 10px;
@@ -693,7 +698,6 @@ textarea.form-control {
 	text-transform: uppercase;
 	line-height: 24px;
 }
-
 /* Сontacts end*/
 /* Map */
 #map {

@@ -776,18 +776,26 @@
                         </div>
                         <!-- contact-items-wrapper -->
                         <form class="contact-form">
-                            <div class="form-col">
-                                <input type="text" name="user-name" id="user-name" placeholder="Name" class="form-control">
-                                <input type="text" name="user-email" id="user-email" placeholder="Email" class="form-control">
+                            <div class="form-row">
+                                <div class="form-col">
+                                    <input type="text" name="user-name" id="user-name" placeholder="Name" class="form-control">
+                                    <input type="text" name="user-email" id="user-email" placeholder="Email" class="form-control">
+                                </div>
+                                <!-- / col -->
+                                <div class="form-col">
+                                    <textarea name="user-message" id="user-message" placeholder="Message"  class="form-control"></textarea>
+                                </div>
+                                <!-- /col -->
                             </div>
-                            <div class="form-col">
-                                <textarea name="user-message" id="user-message" placeholder="Message"  class="form-control"></textarea>
+                            <!-- / form-row -->
+                            <div class="form-submit">
+                                <div class="form-info pull-left">
+                                    <span><i class="fa fa-info-circle"></i> All the fields are required</span>
+                                </div>
+                                <!-- / form-info -->
+                                <button type="submit" class="btn btn-black pull-right">Submit message</button>
                             </div>
-                            <div class="form-info pull-left">
-                                <span><i class="fa fa-info-circle"></i> All the fields are required</span>
-                            </div>
-                            <!-- / form-info -->
-                            <button type="submit" class="btn btn-black pull-right">Submit message</button>
+                            <!-- / form-submit -->
                         </form>
                         <!-- / form -->
                     </div>
@@ -796,22 +804,22 @@
                 <!-- / row -->
             </div>
             <!-- / container -->
-        </div>
-        <!-- / default-section contacts -->
-        <div class="map-container">
-            <div id="map"></div>
-            <div class="on-map-block">
-                <div class="map-content text-center">
-                    <div class="map-item romb-icon transparent-icon">
-                        <a href=""><i class="fa fa-map-marker"></i></a>
-                    </div>
-                    <p><a href="" class="title section-title-light title-white">Open the map <i class="fa fa-chevron-down"></i></a></p>
-                </div>
-                <!-- / map-content -->
             </div>
-            <!-- / on-map-block -->
-        </div>
-        <!-- / map-container -->
+               <!-- / default-section contacts -->
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="on-map-block">
+                    <div class="map-content text-center">
+                        <div class="map-item romb-icon transparent-icon">
+                            <a href=""><i class="fa fa-map-marker"></i></a>
+                        </div>
+                        <p><a href="" class="title section-title-light title-white">Open the map <i class="fa fa-chevron-down"></i></a></p>
+                    </div>
+                    <!-- / map-content -->
+                </div>
+                <!-- / on-map-block -->
+            </div>
+            <!-- / map-container -->
         </div>
         <!-- main end -->
         <!-- FOOTER -->
