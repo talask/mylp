@@ -308,6 +308,7 @@ textarea.form-control {
 	right: 30px;
 	bottom: 30px;
 	cursor: pointer;
+	z-index: 2;
 }
 /* ===== Default component end ===== */
 /* ===== Guide styles start ===== */
@@ -572,7 +573,9 @@ textarea.form-control {
 .slide-content p {
 	font-size: 18px;
 	line-height: 30px;
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
+	font-weight: 300;
+	max-width: 730px;
 }
 .review-author {
 	font-size: 11px;
@@ -621,21 +624,26 @@ textarea.form-control {
 }
 .slick-arrow .carousel-button {
     width: 63px;
-    height: 63px;
+	height: 63px;
+	text-align: center;
     background: #fff;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
     position: absolute;
     top: 50%;
-    margin-left: -32px;
+    /* margin-left: -32px; */
     margin-top: -31px;
 }
 .slick-arrow.slick-next .carousel-button{
     right: 0;
     margin-right: -31px;
 }
+.slick-arrow.slick-prev .carousel-button{
+    left: 0;
+    margin-left: -15px;
+}
 .slick-arrow .carousel-button .fa {
     position: absolute;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 	font-size: 10px;
 }
 .slick-arrow.slick-prev .carousel-button .fa {
@@ -701,7 +709,6 @@ textarea.form-control {
 	top: 0;
 	left: 0;
 	background-color: rgba(0, 0, 0, .8);
-	/* vertical-align: middle; */
 }
 .map-container:hover .on-map-block {
 	display: none;
