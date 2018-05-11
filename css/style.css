@@ -352,6 +352,15 @@ textarea.form-control {
 	color: rgba(255, 255, 255, .75);
 	margin-top:  100px;
 }
+@media (max-width: 768px) {
+	.inner h1 {
+		letter-spacing: .7em;
+	 	text-indent: .7em;
+	}
+	.inner span {
+		margin-top:  50px;	
+	}
+}
  /* Inner end */
  /* About-studio */
  .team-wrapper {
@@ -630,17 +639,17 @@ textarea.form-control {
     transform: rotate(-45deg);
     position: absolute;
     top: 50%;
-    /* margin-left: -32px; */
+    margin-left: -32px;
     margin-top: -31px;
 }
 .slick-arrow.slick-next .carousel-button{
     right: 0;
     margin-right: -31px;
 }
-.slick-arrow.slick-prev .carousel-button{
+/* .slick-arrow.slick-prev .carousel-button{
     left: 0;
     margin-left: -15px;
-}
+} */
 .slick-arrow .carousel-button .fa {
     position: absolute;
     transform: rotate(45deg);
