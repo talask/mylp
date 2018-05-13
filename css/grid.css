@@ -91,6 +91,9 @@
     .col-lg-12 {
         width: 100%;
     }
+    .d-lg-none {
+        display: none;
+    }
 }
 /* medium devices */
 @media (max-width: 991px) {
@@ -129,6 +132,9 @@
     }
     .col-md-12 {
         width: 100%;
+    }
+    .d-md-none {
+        display: none;
     }
 }
 /* small devices */
@@ -169,6 +175,9 @@
     .col-sm-12 {
         width: 100%;
     }
+    .d-sm-none {
+        display: none;
+    }
 }
 /* extra small devices */
 @media (max-width: 991px) {
@@ -207,5 +216,8 @@
     }
     .col-xs-12 {
         width: 100%;
+    }
+    .d-xs-none {
+        display: none;
     }
 }

@@ -97,7 +97,11 @@ blockquote {
 .default-section {
 	padding: 135px 0;
 }
-
+@media (max-width: 991px) {
+	.default-section {
+		padding: 75px 0;
+	}
+}
 .small-section {
 	padding: 70px 0;
 }
@@ -513,6 +517,12 @@ textarea.form-control {
 .lets-talk .lets-talk-img {
 	margin-top: -32px;
 }
+@media (max-width: 991px) {
+	.lets-talk-content {
+		text-align: center;
+		padding: 70px 0;
+	}
+}
  /* Lets talk end */
  /* Portfolio */
  .portfolio {
@@ -568,6 +578,11 @@ textarea.form-control {
 	-webkit-filter: grayscale(0);
 	filter:grayscale(0);
 } 
+@media (max-width: 991px) {
+	.portfolio-item {
+		width: 50%;
+	}
+}
  /* Portfolio end */
 /* Works start */
 
@@ -592,6 +607,13 @@ textarea.form-control {
  }
  .choose-quality {
 	 font-size: 14px;
+ }
+ @media (max-width: 991px) {
+	.choose-item {
+		text-align: center;
+		margin-bottom: 3
+		0px;
+	}
  }
  /* Choose end */
  /* Review carousel start */
@@ -697,6 +719,51 @@ textarea.form-control {
     left: 14px;
 }
 /* Review carousel end */
+/* News */
+.news .title a {
+	float: right;
+	font-size: 11px;
+	letter-spacing: 4px;
+	color: #999;
+
+	 letter-spacing: .3em;
+ }
+.news-img img {
+ 	-webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
+}
+.news-img img:hover {
+	-webkit-filter: grayscale(0);
+   filter:grayscale(0);
+}
+ .news-title {
+	 padding-top: 30px;
+ }
+ .news-title .news-name {
+	font-size: 15px;
+	letter-spacing: .2em;
+}
+ .news-title .news-men {
+	 font-size: 12px;
+	 letter-spacing: 0.3em;
+ }
+ .news-title span + span {
+	 margin-top: 17px;
+ }
+ .news-info .btn {
+	margin-top: 27px;
+ }
+ @media (max-width: 991px) {
+	.news-img img {
+		width: 100%;
+	}
+	.news-item {
+		margin-bottom: 30px;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #000;
+	}
+ }
+/* News end */
 /* Сontacts */
 .contact-items-wrapper {
     margin-bottom: 80px;
@@ -768,41 +835,7 @@ textarea.form-control {
 	font-size: 16px;
 }
 /* Map  end */
- /* News */
- .news .title a {
-	float: right;
-	font-size: 11px;
-	letter-spacing: 4px;
-	color: #999;
-
-	 letter-spacing: .3em;
- }
-.news-img img {
- 	-webkit-filter: grayscale(100%);
-	filter:grayscale(100%);
-}
-.news-img img:hover {
-	-webkit-filter: grayscale(0);
-   filter:grayscale(0);
-}
- .news-title {
-	 padding-top: 30px;
- }
- .news-title .news-name {
-	font-size: 15px;
-	letter-spacing: .2em;
-}
- .news-title .news-men {
-	 font-size: 12px;
-	 letter-spacing: 0.3em;
- }
- .news-title span + span {
-	 margin-top: 17px;
- }
- .news-info .btn {
-	margin-top: 27px;
- }
-/* News end */
+ 
 /* Footer */
 .footer-content {
 	padding: 140px 0;
