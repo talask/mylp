@@ -312,6 +312,17 @@ textarea.form-control {
 .header .header-nav li + li { 
 	margin-left: 30px;
 }
+.slicknav_menu {
+	display: none;
+}
+@media (max-width: 767px) {
+	.slicknav_menu {
+		display: block;
+	}
+	.header-nav {
+		display: none;
+	}
+}
 .icon {
 	font-size: 48px;
 }
